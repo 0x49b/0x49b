@@ -141,16 +141,4 @@ jobs:
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
-  
-  stackoverflow:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: stackoverflow.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 1576965
-          plugin_stackoverflow_sections: answers-top,answers-recent,questions-top,qestions-recent
-          plugin_stackoverflow_limit: 2
+
