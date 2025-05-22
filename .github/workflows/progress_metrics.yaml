@@ -30,5 +30,6 @@ jobs:
         - name: cleanup workflow runs
           uses: dmvict/clean-workflow-runs@v1.0.0
           with:
+            token: ${{ secrets.METRICS_TOKEN }}
             save_period: 30
             save_min_runs_number: 1
