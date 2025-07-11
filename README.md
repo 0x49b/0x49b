@@ -1,7 +1,4 @@
-### Hey I'm Flo. Got some :cookie:?
-
-👷 I'm a BizDevOps Engineer @ [SBB](https://github.com/SchweizerischeBundesbahnen)  
-👨‍🎓 BSc Computer Science
+### Hey, got some :cookie:?
 
 <br/><br/><br/>
 
